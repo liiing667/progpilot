@@ -11,6 +11,7 @@
          bootstrap="./vendor/autoload.php">
     <testsuites>
         <testsuite name="progpilot Test Suite">
+            <file>SarifOutputTest.php</file>
             <file>RunAll.php</file>
             <file>RunAllFolders.php</file>
             <file>RunFlows.php</file>
